@@ -1,14 +1,16 @@
 * body {
     padding: 0;
     margin: 0;
-    background-color: rgb(3, 3, 3);
+    background-color: #0A0A0A;
     font-family: sans-serif, Geneva, Tahoma, sans-serif;
 }
 
-h1, h4, p, h3 {
+h1, h4, p, h3, header {
     color: white;
 }
 
 .profile-pic {
     border-radius: 50%;
+    height: 350;
+    width: 350;
 }
