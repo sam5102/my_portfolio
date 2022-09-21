@@ -75,6 +75,17 @@ p {
     text-align: center;
 }
 
+/* .connect_button {
+    height: 30px;
+    background: red;
+    display: flex;
+    color: white;
+    align-items: center;
+    width: 150px;
+    justify-content: center;
+    margin-left: 40%;
+} */
+
 .skills, .hobbies, .map {
     margin-top: 6%;
 }
