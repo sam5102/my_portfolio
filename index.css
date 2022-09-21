@@ -3,15 +3,125 @@
     margin: 0;
     /* background-color: #0A0A0A; */
     background-image: url(./utils/dark.jpg);
-    font-family: sans-serif, Geneva, Tahoma, sans-serif;
+    font-family: serif sans-serif, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: snow;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
 }
 
-h1, h4, p, h3, header {
+p {
+   font-size: 16px;
+}
+
+.key_role {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    margin-top: 30px;
+}
+
+.header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+
+.logo {
+    height: 35;
+    width: 35;
+    border-radius: 50%;
+    margin-left: 5%;
+}
+
+.my-profile {
+    margin-left: 2%;
     color: white;
+    font-size: 16px;
+    font-style: italic;
+    font-family: none;
+}
+
+.divider {
+    height: 30px;
+    width: 1px;
+    background: white;
+    margin-left: 20px;
+}
+
+.profile {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    align-items: center;
 }
 
 .profile-pic {
-    border-radius: 50%;
-    height: 350;
-    width: 350;
+    border-radius: 5%;
+    height: 370;
+    width: 380;
+}
+
+.discription {
+    margin-right: 55px;
+    text-align: center;
+}
+
+.skills, .hobbies, .map {
+    margin-top: 6%;
+}
+
+.skills_section, .hobbies_section {
+    margin-top: 50px !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.html, .javascript, .css, .reactjs, .firebase {
+    text-align: center;
+}
+
+.music, .cricket, .brain, .drawing { 
+    text-align: center;
+}
+
+.html_logo, .css_logo, .reactjs_logo, .firebase_logo {
+    width: 110px;
+    height: 110px;
+}
+
+.music_logo, .brain_logo, .cricket_logo, .drawing_logo {
+    width: 145px;
+    height: 143px;
+}
+
+.js_logo {
+    width: 190px;
+    height: 110px;
+}
+
+.map {
+    margin-bottom: 4%;
+}
+
+.footer {
+    text-align: center  ;
+}
+
+.github, .linkedIn, .instagram, .facebook {
+    height: 30px;
+}
+
+.instagram {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.linkedIn {
+    margin-right: 12px;
 }

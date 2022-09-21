@@ -4,55 +4,128 @@
             My Portfolio
         </title>
         <link rel="stylesheet" href="./index.css">
+        <link href="./utils/logo.jpeg" rel="icon">
     </head>
     <body>
-        <header>
-            My Profile
-        </header>
-        <hr />
-        <img class="profile-pic" src="./utils/my-dp.jpg" alt="profile-picture" height="262" width="255"/>
-        <h1>Sumit Aggarwal<h1>
-        <h4>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-            dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
-            book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
-            unchanged.
-        </h4>
 
-        <h1>Skills</h1>
-        <hr>
-        <img src="./utils/html-5.png" alt="HTML-5">
-        <img src="./utils/css3.png" alt="CSS">
-        <img src="./utils/js.png" alt="Javascript">
-        <img src="./utils/react.png" alt="ReactJS">
-        <img src="./utils/firebase.png" alt="Firebase">
+        <div class="header">
+            <img src="./utils/logo.jpeg" alt="logo" class="logo">
+            <div class="divider"></div>
+            <p class="my-profile">Profile</p> 
+        </div>
 
-        <h1>Hobbies</h1>
-        <hr />
-        <img src="./utils/music.png" alt="Music">
-        <p>Listening Music</p>
+        <!--Profile Bio Section-->
+        <div class="profile">
+            <div class="discription">
+                <h1>Sumit Aggarwal<h1>
+                    <p class="key_role">
+                        Junior Front-End developer with having some knowledge of HTML, CSS, JavaScript, and few other technologies like webRTC and Firebase and eager to
+                        transition into a junior full-stack developer role. Excited to boost my skill into deep  in development and data management by joining as an Intern @ Edureka.
+                    </p>
+            </div>
+            <img class="profile-pic" src="./utils/my-dp.jpg" alt="profile-picture" />
+        </div>
+        
+        <!--Skills Section-->
+        <div class="skills">
+            <h1 style="text-align: center;">Skills</h1>
+            <hr>
+            <div class="skills_section">
+                <div class="html">
+                    <a href="">
+                        <img src="./utils/html-5.png" alt="HTML-5" class="html_logo">
+                    </a>
+                    <p>HTML</p>
+                </div>
+                
+                <div class="css">
+                    <a href="">
+                        <img src="./utils/css3.png" alt="CSS" class="css_logo">
+                    </a>
+                    <p>CSS</p>
+                </div>
+                
+                <div class="javascript">
+                    <a href="">
+                        <img src="./utils/js-icon.png" alt="Javascript" class="js_logo">
+                    </a>
+                    <p>JavaScript</p>
+                </div>
+                
+                <div class="reactjs">
+                    <a href="">
+                        <img src="./utils/react-icon.png" alt="ReactJS" class="reactjs_logo">
+                    </a>
+                    <p>ReactJS</p>
+                </div>
+                
+                <div class="firebase">
+                    <a href="">
+                        <img src="./utils/firebase-icon.png" alt="Firebase" class="firebase_logo">
+                    </a>
+                    <p>Firebase</p>
+                </div>
+            </div>
+        </div>
+        
+        <!--Hobbies Section-->
+        <div class="hobbies">
+            <h1 style="text-align: center;">Hobbies</h1>
+            <hr />
 
-        <img src="./utils/brain-teasure.png" alt="Brain-Teaser">
-        <p>Brain Teaser</p>
+            <div class="hobbies_section">
+                <div class="music">
+                    <img src="./utils/music.png" alt="Music" class="music_logo">
+                    <p>Listening Music</p>
+                </div>
+                
+                <div class="brain">
+                    <img src="./utils/brain-teasure.png" alt="Brain-Teaser" class="brain_logo">
+                    <p>Brain Teaser</p>
+                </div>
+                
+                <div class="drawing">
+                    <img src="./utils/drawing-icon.png" alt="Drawing-Art" class="drawing_logo">
+                    <p>Drawing</p>
+                </div>
+                
+                <div class="cricket">
+                    <img src="./utils/cricket-icon.png" alt="Cricket" class="cricket_logo">
+                    <p>Playing Cricket</p>
+                </div>
+                
+            </div>
+        </div>
+        
+        <!--Map Section-->
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.779012996978!2d77.64333231418955!3d12.92192011946422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae148703a8158f%3A0x519bee42eb9512b1!2sFurnome%20Newton!5e0!3m2!1sen!2sin!4v1663475782272!5m2!1sen!2sin"
+                width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+        
 
-        <img src="./utils/drawing.jpeg" alt="Drawing-Art">
-        <p>Drawing</p>
-
-        <img src="./utils/cricket.jpeg" alt="Cricket">
-        <p>Playing Cricket</p>
-
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.779012996978!2d77.64333231418955!3d12.92192011946422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae148703a8158f%3A0x519bee42eb9512b1!2sFurnome%20Newton!5e0!3m2!1sen!2sin!4v1663475782272!5m2!1sen!2sin"
-            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
-
-        <footer>
-            <h3>Stay Connected</h3>
-            <img src="./utils/github.png" alt="github">
-            <img src="./utils/instagram.jpeg" alt="instagram">
-            <img src="./utils/linkedIn.png" alt="linkedIn">
-            <img src="./utils/facebook.jpeg" alt="facebook">
+        <footer >
+            <div class="footer">
+                <h3 style="font-size: 22px;">Connect</h3>
+                <a href="https://github.com/sam5102" target="_blank">
+                    <img class="github" src="./utils/github.png" alt="github" title="github">
+                </a>
+                <a href="https://www.instagram.com/sumit_aggarwal5102/" target="_blank">
+                    <img class="instagram" src="./utils/instagram.png" alt="instagram" title="Instagram">
+                </a>
+                <a href="https://linkedin.com/" target="_blank">
+                    <img class="linkedIn" src="./utils/linkedIn.png" alt="linkedIn" title="linkedIn">
+                </a>
+                <a href="https://facebook.com/" target="_blank">
+                    <img class="facebook" src="./utils/facebook.jpeg" alt="facebook" title="facebook">
+                </a>
+                
+                <p style="font-size: 16px;">&#169; Designed By Sumit</p>
+            </div>
+            
         </footer>
     </body>
 </html>
