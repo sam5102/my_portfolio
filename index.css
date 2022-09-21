@@ -10,6 +10,11 @@
     scroll-behavior: smooth;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+    /* Safari and Chrome */
+}
+
 p {
    font-size: 16px;
 }
@@ -22,7 +27,7 @@ p {
 }
 
 .header {
-    height: 60px;
+    height: 70px;
     display: flex;
     align-items: center;
     border-bottom: 1px solid white;
@@ -38,8 +43,9 @@ p {
 .my-profile {
     margin-left: 2%;
     color: white;
-    font-size: 16px;
+    font-size: 17px;
     font-style: italic;
+    font-weight: 600;
     font-family: none;
 }
 
@@ -125,3 +131,14 @@ p {
 .linkedIn {
     margin-right: 12px;
 }
+
+
+
+/* not worked yet */
+
+/* @media only screen and (max-width: 600px) {
+    
+    .header {
+        height: 90px;
+    }
+} */
