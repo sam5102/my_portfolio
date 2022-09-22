@@ -147,7 +147,7 @@ p {
 
 /* not worked yet */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     
     .header {
         height: 140px;
