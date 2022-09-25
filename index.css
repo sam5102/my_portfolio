@@ -149,8 +149,23 @@ p {
 
 @media only screen and (max-device-width: 480px) {
     
-p {
-        font-size: 50px;
+.profile {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 90%;
+        margin: auto;
+        margin-top: 10%;
+        align-items: center;
+    }
+
+    .profile-pic {
+        border-radius: 5%;
+        height: 500px;
+        width: 50%;
+    }
+
+    p {
+        font-size: 18px;
     }
 
 }
