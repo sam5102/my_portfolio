@@ -164,8 +164,8 @@ p {
 
     .profile-pic {
         border-radius: 50%;
-        height: 450px;
-        width: 450px;
+        height: 500px;
+        width: 500px;
     }
 
     .key_role {
@@ -173,9 +173,8 @@ p {
         letter-spacing: 1px;
         line-height: 1.4;
         margin-top: 50px;
+        text-align: justify;
     }
-
-
 
     p {
         font-size: 22px;
