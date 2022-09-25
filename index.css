@@ -149,18 +149,18 @@ p {
 
 @media only screen and (max-device-width: 480px) {
     
-.profile {
-    display: flex;
-    flex-direction: column-reverse;
-    width: 90%;
-    margin: auto;
-    margin-top: 10%;
-}
+    .profile {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 90%;
+        margin: auto;
+        margin-top: 10%;
+    }
 
-.discription {
-    margin-top: 5%;
-    text-align: center;
-}
+    .discription {
+        margin-top: 5%;
+        text-align: center;
+    }
 
     .profile-pic {
         border-radius: 50%;
@@ -168,12 +168,12 @@ p {
         width: 450px;
     }
 
-        .key_role {
-            font-size: 17px !important;
-            letter-spacing: 1px;
-            line-height: 1.4;
-            margin-top: 50px;
-        }
+    .key_role {
+        font-size: 17px !important;
+        letter-spacing: 1px;
+        line-height: 1.4;
+        margin-top: 50px;
+    }
 
 
 
