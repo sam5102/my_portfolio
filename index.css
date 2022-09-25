@@ -148,13 +148,50 @@ p {
 /* not worked yet */
 
 @media (max-device-width: 480px) {
+
+    .container { 
+        position: absolute;
+    }
+
+        .logo {
+            height: 60;
+            width: 60;
+            margin-left: 7%;
+        }
+
+                .divider {
+                    height: 45px;
+                    width: 1px;
+                    background: white;
+                    margin-left: 4%;
+                }
+    
+        .my-profile {
+            margin-left: 4%;
+            color: white;
+            font-size: 22px;
+            font-style: italic;
+            font-weight: 600;
+            font-family: none;
+        }
+
+    .header {
+        height: 140px;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #403e3e;
+        position: fixed;
+        z-index: 1000;
+        width: 100%;
+        background-image: url(./utils/dark.jpg);
+    }
     
     .profile {
         display: flex;
         flex-direction: column-reverse;
         width: 90%;
         margin: auto;
-        margin-top: 10%;
+        margin-top: 22%;
     }
 
     .discription {
@@ -169,11 +206,10 @@ p {
     }
 
     .key_role {
-        font-size: 17px !important;
+        font-size: 16px !important;
         letter-spacing: 1px;
         line-height: 1.4;
         margin-top: 50px;
-        text-align: justify;
     }
 
     p {
