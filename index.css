@@ -147,38 +147,10 @@ p {
 
 /* not worked yet */
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-device-width: 480px) {
     
-    .header {
-        height: 140px;
+p {
+        font-size: 50px;
     }
 
-        .logo {
-            height: 70px;
-            width: 70px;
-            border-radius: 50%;
-            margin-left: 5%;
-        }
-    
-        .my-profile {
-            margin-left: 2%;
-            color: white;
-            font-size: 20px;
-            font-style: italic;
-            font-weight: 600;
-            font-family: none;
-        }
-
-        .profile {
-            width: 82%;
-        }
-
-    .html_logo, .css_logo, .reactjs_logo, .firebase_logo {
-        width: 140px;
-        height: 140px;
-    }
-
-    p {
-        font-size: 19px;
-    }
 }
