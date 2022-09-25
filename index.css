@@ -176,7 +176,7 @@ p {
         }
 
     .header {
-        height: 140px;
+        height: 135px;
         display: flex;
         align-items: center;
         border-bottom: 1px solid #403e3e;
@@ -197,6 +197,7 @@ p {
     .discription {
         margin-top: 5%;
         text-align: center;
+        margin-left: 5%;
     }
 
     .profile-pic {
@@ -205,11 +206,16 @@ p {
         width: 500px;
     }
 
+    .my-name {
+        font-size: 24px;
+    }
+
     .key_role {
-        font-size: 16px !important;
+        font-size: 21px !important;
         letter-spacing: 1px;
         line-height: 1.4;
         margin-top: 50px;
+        text-align: justify;
     }
 
     p {
