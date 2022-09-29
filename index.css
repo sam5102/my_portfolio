@@ -15,6 +15,10 @@ body::-webkit-scrollbar {
     /* Safari and Chrome */
 }
 
+.container {
+    position: absolute;
+}
+
 p {
    font-size: 16px;
 }
@@ -32,6 +36,10 @@ p {
     align-items: center;
     border-bottom: 1px solid #403e3e;
     justify-content: space-between;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    background-image: url(./utils/dark.jpg);
 }
 
 .left-section {
@@ -44,14 +52,14 @@ p {
     margin-right: 5%;
 }
 
-.logo {
+.left-section img {
     height: 35;
     width: 35;
     border-radius: 50%;
     margin-left: 5%;
 }
 
-.my-profile {
+.left-section p {
     margin-left: 2%;
     color: white;
     font-size: 17px;
@@ -72,12 +80,12 @@ p {
     display: flex;
     width: 80%;
     margin: auto;
-    margin-top: 5%;
+    margin-top: 12%;
     align-items: center;
 }
 
 .profile-pic {
-    border-radius: 5%;
+    border-radius: 1%;
     height: 370;
     width: 380;
 }
@@ -86,17 +94,6 @@ p {
     margin-right: 55px;
     text-align: center;
 }
-
-/* .connect_button {
-    height: 30px;
-    background: red;
-    display: flex;
-    color: white;
-    align-items: center;
-    width: 150px;
-    justify-content: center;
-    margin-left: 40%;
-} */
 
 .skills, .hobbies, .map {
     margin-top: 6%;
@@ -156,22 +153,17 @@ p {
 }
 
 
-
 /* not worked yet */
 
 @media (max-device-width: 480px) {
 
-    .container { 
-        position: absolute;
-    }
-
-    .logo {
+    .left-section img {
         height: 60;
         width: 60;
         margin-left: 7%;
     }
 
-    .connect {
+    #connect {
         height: 60;
         width: 60;
     }
@@ -183,7 +175,7 @@ p {
         margin-left: 4%;
     }
     
-    .my-profile {
+    .left-section p {
         margin-left: 4%;
         color: white;
         font-size: 22px;
@@ -195,13 +187,6 @@ p {
 
     .header {
         height: 135px;
-        display: flex;
-        align-items: center;
-        border-bottom: 1px solid #403e3e;
-        position: fixed;
-        z-index: 1000;
-        width: 100%;
-        background-image: url(./utils/dark.jpg);
     }
     
     .profile {
@@ -224,7 +209,7 @@ p {
         width: 500px;
     }
 
-    .my-name {
+    .description h1 {
         font-size: 25px;
     }
 
@@ -241,3 +226,11 @@ p {
     }
 
 }
+
+/* display: flex;
+align-items: center;
+border-bottom: 1px solid #403e3e;
+position: fixed;
+z-index: 1000;
+width: 100%;
+background-image: url(./utils/dark.jpg); */
