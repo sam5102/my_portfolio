@@ -88,6 +88,8 @@ p {
     border-radius: 1%;
     height: 370;
     width: 380;
+    box-shadow: 0 4px 8px 0 rgb(245 231 231 / 20%),
+        0 6px 20px 0 rgb(239 229 229 / 19%);
 }
 
 .discription {
@@ -95,7 +97,7 @@ p {
     text-align: center;
 }
 
-.skills, .hobbies, .map {
+.skills, .hobbies, .map, .my_projects {
     margin-top: 6%;
 }
 
