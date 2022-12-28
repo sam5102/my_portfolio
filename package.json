@@ -1,0 +1,27 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "description": "My web Profile",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sam5102/my_portfolio.git"
+  },
+  "keywords": [
+    "web",
+    "profile"
+  ],
+  "author": "sam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sam5102/my_portfolio/issues"
+  },
+  "homepage": "https://github.com/sam5102/my_portfolio#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "jsmediatags": "^3.9.7"
+  }
+}

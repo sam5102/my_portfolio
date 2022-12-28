@@ -3,6 +3,8 @@
         <title>
             My Portfolio
         </title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jsmediatags/3.9.5/jsmediatags.min.js" ></script>
+        <script type="text/javascript" src="./index.js"></script>
         <link rel="stylesheet" href="./index.css">
         <link href="./utils/logo.jpeg" rel="icon">
         <!-- <meta name="viewport" content="width=device-width,initial-scale=1.0"> -->
@@ -117,23 +119,23 @@
             <hr />
 
             <div class="hobbies_section">
-                <div class="music">
-                    <img src="./utils/music.png" alt="Music" class="music_logo">
+                <div class="music" onclick="togglePlaylist()">
+                    <img src="./utils/new/music.jpeg" alt="Music" class="music_logo">
                     <p>Listening Music</p>
                 </div>
                 
                 <div class="brain">
-                    <img src="./utils/brain-teasure.png" alt="Brain-Teaser" class="brain_logo">
+                    <img src="./utils/new/brain.jpeg" alt="Brain-Teaser" class="brain_logo">
                     <p>Brain Teaser</p>
                 </div>
                 
                 <div class="drawing">
-                    <img src="./utils/drawing-icon.png" alt="Drawing-Art" class="drawing_logo">
+                    <img src="./utils/new/drawing.jpeg" alt="Drawing-Art" class="drawing_logo">
                     <p>Drawing</p>
                 </div>
                 
                 <div class="cricket">
-                    <img src="./utils/cricket-icon.png" alt="Cricket" class="cricket_logo">
+                    <img src="./utils/new/cricket.jpeg" alt="Cricket" class="cricket_logo">
                     <p>Playing Cricket</p>
                 </div>
                 
@@ -171,5 +173,82 @@
             
         </footer>
         </div>
+
+        <div id="songs_list">
+            <div id="songs">
+                <div id="author">
+                    <img id="author-img" src="./utils/authors/shubh.jpeg" alt="Shubh">
+                    <p>Shubh</p>
+                    <div></div>
+                </div>
+                <div style="margin-left: 70px;">
+                    <img id="song-img" src="./utils/authors/songs/no_love.jpeg" />
+                    <audio controls>
+                        <source src="./music/Shubh - No Love.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+                <div style="margin-left: 70px;">
+                    <img id="song-img" src="./utils/authors/songs/we_rollin.jpeg" />
+                    <audio controls>
+                        <source src="./music/We Rollin - Shubh.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+                <div style="margin-left: 70px;">
+                    <img id="song-img" src="./utils/authors/songs/elevated.jpeg" />
+                    <audio controls>
+                        <source src="./music/Elevated.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+                
+                <div id="author">
+                    <img id="author-img" src="./utils/authors/imran.jpeg" alt="Imran Khan">
+                    <p>Imran Khan</p>
+                    <div></div>
+                </div>
+
+                <div style="margin-left: 70px;">
+                    <img id="song-img" src="./utils/authors/songs/aaja_ve.jpeg" />
+                    <audio controls>
+                        <source src="./music/Aaja We Mahiya (Imran Khan).mp3" type="audio/mp3">
+                    </audio>
+                </div>
+      
+                <div id="author">
+                    <img id="author-img" src="./utils/authors/alec.jpeg" alt="Alec Benjamin">
+                    <p>Alec Benjamin</p>
+                    <div></div>
+                </div>
+
+                <div style="margin-left: 70px;">
+                    <img id="song-img" src="./utils/authors/songs/down.jpeg" />
+                    <audio controls>
+                        <source src="./music/Let Me Down Slowly.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+                
+                <div id="author">
+                    <img id="author-img" src="./utils/authors/atif.jpeg" alt="Atif Aslam">
+                    <p>Atif Aslam</p>
+                    <div></div>
+                </div>
+
+                <div style="margin-left: 70px;">
+                    <img id="song-img" src="./utils/authors/songs/woh lamhe.jpeg" />
+                    <audio controls>
+                        <source src="./music/Woh Lamhe Woh Baatein - Atif Aslam.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+                <div style="margin-left: 70px;">
+                    <img id="song-img" src="./utils/authors/songs/manja.jpeg" />
+                    <audio controls>
+                        <source src="./music/Manjha - Vishal Mishra.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+                
+            </div>
+        </div>
+        <script>
+            window.onload = songMetaData();
+        </script>
     </body>
 </html>
